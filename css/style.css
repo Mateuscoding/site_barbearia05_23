@@ -1,0 +1,154 @@
+@font-face {
+	font-family: righteous;
+	src: url(../font/Righteous/Righteous-Regular.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background: 
+    linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.719)),
+    url(../imagens/banner-principal.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.banner {
+	width:100%;
+	height: 100vh;
+}
+
+header{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+}
+
+.principal{
+	background: black;
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.titulo-principal {
+	font-family: righteous;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	animation-name: intro-texto;
+	animation-duration: 2s;
+}
+
+.logo-intro{
+	animation: intro-logo 7s;
+}
+.titulo-centralizado {
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: righteous;
+	color: white;
+}
+
+p {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.726);
+	font-family: sans-serif;
+	width: 80%;
+}
+
+em strong {
+	color: #fffcfc;
+}
+
+.itens {
+	list-style: none;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* gap: 10px; */
+	color: white;
+	/* margin: 50px 0; */
+	font-family: sans-serif;
+	width: 320px;
+	height: 200px;
+	transition: .5s;
+	font-family: righteous;
+}
+.itens i{
+	font-size: 35px;
+}
+.beneficios {
+	background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.719)), url(../imagens/beneficios.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	gap: 10px;
+}
+
+@keyframes intro-texto {
+
+	0%{
+		margin-left: -100%;
+		opacity: 0;
+	}
+	100%{
+		margin: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes intro-logo {
+
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+.galeria{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto;
+}
+
+.foto img{
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+}
+
+.foto img:hover{
+	transition: 1s;
+	opacity: 1;
+}
