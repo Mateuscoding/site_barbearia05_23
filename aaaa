@@ -1,0 +1,42 @@
+[33mcommit d0224dfce8c565ab6ed9bd1db91e126851e1d1ef[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 90a222d 5649d51
+Author: Mateus Bezerra <mateusbezerra7k@gmail.com>
+Date:   Tue May 9 10:20:39 2023 -0300
+
+    Merge branch 'main' of https://github.com/Mateuscoding/site_barbearia05_23
+
+[33mcommit 90a222d2db5b946976abb2344d6d1a2d4aea6906[m[33m ([m[1;31mlocal/main[m[33m)[m
+Author: Mateus Bezerra <mateusbezerra7k@gmail.com>
+Date:   Tue May 9 09:53:55 2023 -0300
+
+    Implementando um menu no arquivo index e modificando o estilo menu nas respectivas paginas igualmente.
+
+[33mcommit 5649d51ca0cc2b152c3e20511bdc92ad47a79a5c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Mateus Bezerra <94889272+Mateuscoding@users.noreply.github.com>
+Date:   Mon May 8 17:23:31 2023 -0300
+
+    Delete CNAME
+
+[33mcommit 381d4ae780a8f2d2d5624e68667b13b778c95554[m
+Author: Mateus Bezerra <94889272+Mateuscoding@users.noreply.github.com>
+Date:   Mon May 8 17:22:56 2023 -0300
+
+    Update CNAME
+
+[33mcommit f6bfe1efffaf50ae16fde32e929dc697a346beba[m
+Author: Mateus Bezerra <94889272+Mateuscoding@users.noreply.github.com>
+Date:   Mon May 8 17:22:04 2023 -0300
+
+    Create CNAME
+
+[33mcommit 5738e474eb6ec82451527537ed67e2f586f4c5e4[m
+Author: Mateus Bezerra <mateusbezerra7k@gmail.com>
+Date:   Thu May 4 00:05:59 2023 -0300
+
+    incializando os arquivos no git
+
+[33mcommit f70b5662a4c8123e72e59d8959d8a13b70f77c6c[m
+Author: Mateus Bezerra <94889272+Mateuscoding@users.noreply.github.com>
+Date:   Wed May 3 23:36:11 2023 -0300
+
+    Trazendo os arquivos do projeto já inicializado por mim antes de criar um repositório
