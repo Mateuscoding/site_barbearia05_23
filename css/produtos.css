@@ -15,32 +15,6 @@ header {
 	padding: 20px 0;
 	position: relative;
 }
-
-.balao, .balao2, .balao3, .balao4{
-	width: 200px;
-	height: 10px;
-	transform: rotate(90deg);
-	border-radius: 20px;
-	position: absolute;
-	background-color: #2C2B31;
-	z-index: -1;
-}
-
-.balao2{
-	width: 300px;
-}
-.balao3{
-	width: 300px;
-	/* top: 102%; */
-	right: 2%;
-	/* background-color: red; */
-}
-
-.balao4{
-	right: 1%;
-}
-
-
 .caixa {
 	position: relative;
 	width: 940px;
@@ -72,10 +46,24 @@ nav a:hover{
 	transition: .7s;
 	color: white;
 }
+.icon-placa{
+	width: 200px;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
 .produtos {
-	width: 940px;
+	width: 90%;
+	height: 100%;
 	margin: 0 auto;
 	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 .produtos h2{
 	font-family: Bebas Neue;
@@ -83,16 +71,17 @@ nav a:hover{
 }
 
 .produtos li {
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	font-family: sans-serif;
-	width: 30%;
+	width: 250px;
 	vertical-align: top;
 	margin: 0 1.5%;
 	padding: 30px 20px;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	border: 3px solid transparent;
 	border-radius: 5px;
+	background-color: white;
 }
 
 .produtos li:hover {
@@ -147,3 +136,6 @@ footer {
 	font-size: 13px;
 	margin: 20px 0 0;
 }
+
+
+
