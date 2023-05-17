@@ -68,6 +68,7 @@ nav a:hover{
 .produtos h2{
 	font-family: Bebas Neue;
 	letter-spacing: 1px;
+	color: #9A3549;
 }
 
 .produtos li {
@@ -100,10 +101,6 @@ box-shadow: 10px 10px 5px 0px rgba(148,148,148,1);
 
 .produtos li:active {
 	border-color: #088C19;	
-}
-
-.produtos li:hover h2 {
-	/* font-size: 34px; */
 }
 
 .produtos h2 {
