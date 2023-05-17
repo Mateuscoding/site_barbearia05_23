@@ -8,27 +8,42 @@
     padding: 0;
 }
 
+body{
+        background: #2C2B31;
+
+}
+
 header{
-    padding: 20px 0;
-    background: #2C2B31;
+    /* padding: 20px 0; */
+    /* background: green; */
+   	padding: 70px 0;
+
 }
 
 .caixa-header{
     position: relative;
-	width: 940px;
-	margin: 0 auto;
+	width: 100%;
 }
+.logo{
+    margin:  0px auto;
+    width: 200px;
 
+}
+.logo img{
+    width: 100%;
+    
+}
 nav {
     position: absolute;
-    top: 110px;
-    right: 0px;
+    top: 10px;
+    left: 50px;
 }
 nav li{
-    display: inline;
+    /* display: inline; */
     margin: 0 0 0 15px;
+    list-style: none;
+    color: #9A3549;
 }
-
 nav a{
     font-size: 22px;
     font-weight: 500;
@@ -41,3 +56,100 @@ nav a{
 nav a:hover{
 	color: white;
 }
+
+
+
+.intro{
+    margin: 0 auto;
+    width: 200px;
+    font-family: Bebas Neue;
+    color: #9A3549;
+    font-size: 30px;
+    text-align: center;
+}
+.intro img{
+    width: 100%;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+form{
+    width: 100%;
+    height: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #101013; */
+
+    font-size: 25px;
+}
+label{
+    width: 320px;
+    /* background-color: red; */
+    color: #9A3549;
+    font-family: Bebas Neue;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 90%;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-bottom: 1px solid #464646;
+}
+
+.label-mensagem{
+    width: 100%;
+    margin: 20px 0px;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+    background-color: #9A3549;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+
+textarea:focus{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #9A3549;
+}
+
+.preferencias{
+    border: none;
+    color: #9A3549;
+    font-family: bebas neue;
+    padding: 10px;
+}
+.preferencias > label{
+    display: block;
+    margin: 5px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: .5s all;
+}
+.preferencias > label:hover{
+    color: azure;
+}
+input[type=radio]{
+    display: none;
+}
+
+
+.enviar{
+    width: 100%;
+    padding: 15px;
+    background-color: #9A3549;
+    transition: .5s all;
+}
+
+.enviar:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #9A3549;
+}
+

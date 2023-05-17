@@ -14,20 +14,78 @@
 
     <header>
         <div class="caixa-header">
-            <h1><img src="./imagens/logo-branco.png" alt="Logo da Barbearia Alura"></h1>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>            
+            <nav>
+                <ul>
+                    <li> &#8656; <a href="index.html">Home</a></li>
+                    <li> &#8656; <a href="produtos.html">Produtos</a></li>
+                </ul>
+            </nav>            
+        </div>
+        <div class="intro">
+            <h1>CONTATO</h1>
+            <img src="./imagens/icone-bigode.png" alt="Logo da Barbearia Alura">
         </div>
     </header>
 
     <main>
         <form>
-            
+                <label for="nomesobrenome">
+                    <legend> 
+                        Nome e sobrenome
+                    </legend>
+				    <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="nome e sobrenome">
+                </label>
+
+                <label for="email">
+                    <legend> 
+                        email
+                    </legend>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                </label>
+
+				<label for="telefone">
+                    <legend> 
+                        telefone
+                    </legend>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+                </label>
+                <br>
+                <label class="label-mensagem" for="mensagem">
+                    <legend> 
+                        mensagem
+                    </legend>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required>
+
+                    </textarea>
+                </label>
+
+                <fieldset class="preferencias">
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email"> Email
+                    </label>
+					
+					<label for="radio-telefone">
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone
+                    </label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+                <fieldset class="preferencias">
+					<legend>Qual horário prefere ser atendido?</legend>
+					<label for="radio-manha">
+                        <input type="radio" name="manha" value="manha" id="radio-manha"> Manhã
+                    </label>
+					
+					<label for="radio-tarde">
+                        <input type="radio" name="contato" value="tarde" id="radio-tarde"> Tarde
+                    </label>
+					
+					<label for="radio-noite"><input type="radio" name="noite" value="noite" id="radio-noite" checked> Noite</label>
+				</fieldset>
+                
+                <input class="enviar" type="button" value="Enviar">
         </form>
     </main>
 
