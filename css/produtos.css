@@ -52,13 +52,12 @@ nav a:hover{
 	top: 100%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
 }
 
 .produtos {
 	width: 90%;
 	height: 100%;
-	margin: 0 auto;
+	margin: 50px auto;
 	padding: 50px 0;
 	display: flex;
 	justify-content: center;
@@ -100,7 +99,7 @@ box-shadow: 10px 10px 5px 0px rgba(148,148,148,1);
 }
 
 .produtos li:active {
-	border-color: #088C19;	
+	border-color: #9A3549;	
 }
 
 .produtos h2 {
