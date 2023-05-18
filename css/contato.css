@@ -24,15 +24,7 @@ header{
     position: relative;
 	width: 100%;
 }
-.logo{
-    margin:  0px auto;
-    width: 200px;
 
-}
-.logo img{
-    width: 100%;
-    
-}
 nav {
     position: absolute;
     top: 10px;
@@ -60,7 +52,7 @@ nav a:hover{
 
 
 .intro{
-    margin: 0 auto;
+    margin: 50px auto;
     width: 200px;
     font-family: Bebas Neue;
     color: #9A3549;
@@ -111,14 +103,10 @@ textarea{
     height: 150px;
     border: none;
     outline: none;
-    background-color: #9A3549;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 18px;
-}
-
-textarea:focus{
+    color: #2C2B31;
     background-color: rgba(255, 255, 255, 0.5);
-    color: #9A3549;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 .preferencias{
@@ -153,3 +141,27 @@ input[type=radio]{
     color: #9A3549;
 }
 
+footer{
+    width: 100%;
+    height: 20vh;
+    background:url(../imagens/bg.jpg);
+    margin-top: 50px;
+}
+.content-footer{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 960px;
+    /* background-color: red; */
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+table{
+    width: 200px;
+}
